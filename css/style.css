@@ -18,15 +18,101 @@
 /* /////////:::BODY::::////// */
 /* Body */
     /* Start Rewards */
-    ...
-    /* End Rewards */
+      /* done icons*/
+        .fa{
+          background: linear-gradient(106.2deg, rgb(0, 186, 217) -4.3%, rgb(121, 134, 204) 14.1%, rgb(150, 117, 206) 34.7%, rgb(186, 105, 200) 53%, rgb(240, 71, 112) 74.7%, rgb(239, 162, 92) 95.6%);
+          color: rgb(255, 255, 255);
+          border: 15%;
+          border-radius: 50%;
+          font-size: 1rem;
+        }
+        /*the botton */
+        button {
+          position: relative;
+          padding: 2% 3.5%;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color: white;
+          background: linear-gradient(106.2deg, rgb(0, 186, 217) -4.3%, rgb(121, 134, 204) 14.1%, rgb(150, 117, 206) 34.7%, rgb(186, 105, 200) 53%, rgb(240, 71, 112) 74.7%, rgb(239, 162, 92) 95.6%);
+          border-width: 0px;
+          border-radius: 4px;
+          font-size: 0.9em;
+        }
+        /* the text and 2 pictures */
+        .row{
+          display: grid;
+          grid-template-columns: auto auto auto;
+        }
+        /* 2eme tache*/
+          .gallery {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 5vw);
+            grid-gap: 15px;
+        }
+        .text
+        {
+            padding: 1rem;
+        }
+        /* phone ans tablet display*/
+        @media only screen and (max-width: 500px)
+        {
+            .left-illustration
+            {
+              display: none;
+            }
+            .right-illustration
+            {
+              display: none;
+            }
 
-    /* Start Slide */
-    ...
-    /* End Slide */
+        }
+            /* End Rewards */
 
-    /* Start Gallry */
-    ...
+            /* Start Slide */
+            ...
+            /* End Slide */
+
+            /* Start Gallry */
+        .header {
+          text-align: center;
+          padding: 32px;
+        }
+
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+
+
+        .column {
+          flex: 25%;
+          max-width: 25%;
+          padding: 0 4px;
+          box-sizing: border-box;
+        }
+
+        .column img {
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 100%;
+        }
+
+
+        @media screen and (max-width: 800px) {
+          .column {
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+
+
+        @media screen and (max-width: 600px) {
+          .column {
+            flex: 100%;
+            max-width: 100%;
+          }
+        }
     /* End Gallry */
 /* End Body */
 
