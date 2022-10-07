@@ -159,7 +159,132 @@
     /* End of media NavBar and slugs*/
 
     /* Start Slide */
-    ...
+    textarea,
+input {
+    outline: none;
+}
+
+.first {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 4%;
+    width: 86em;
+    margin: 0% 0%;
+}
+
+.header1 {
+    color: white;
+}
+
+.para1 {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20;
+    margin: 0%;
+}
+
+/* .bar {
+    display: inline;
+} */
+
+.img1 {
+    position: relative;
+    margin-top: 2.5%;
+    left: 59vw;
+    height: 402px;
+    width: 494px;
+}
+
+.p1 {
+    display: inline;
+}
+
+.findtxt {
+    background-color: #eee;
+    position: relative;
+    font-size: small;
+    margin-left: 0%;
+    padding: 1px;
+    border: none;
+    background: none;
+}
+
+.form {
+    display: flex;
+    background: #EEE;
+
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-shadow: 1% 2% 10% #7b7575bf;
+    /* margin-right: 0%;
+    margin-top: 0%; */
+
+    padding: 8px 60px;
+    box-sizing: border-box;
+}
+
+
+
+button {
+    position: relative;
+    padding: 12px 2%;
+    margin-left: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+    background: linear-gradient(106.2deg, rgb(0, 186, 217) -4.3%, rgb(121, 134, 204) 14.1%, rgb(150, 117, 206) 34.7%, rgb(186, 105, 200) 53%, rgb(240, 71, 112) 74.7%, rgb(239, 162, 92) 95.6%);
+    border-width: 3%;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.search {
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.bar2 {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 3%;
+    position: re;
+}
+
+.google {
+    background: rgb(255, 255, 255);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.img2 {
+    position: absolute;
+    top: 0;
+    right: 15%;
+    height: 20em;
+    width: 30em;
+}
+
+.googleimg {
+
+    height: 20px;
+    width: 20px;
+}
+
+.fa {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 15%;
+    border-radius: 50%;
+    font-size: 1rem;
+}
     /* End Slide */
 
 /* End Header */
