@@ -13,31 +13,31 @@
         padding: 1rem 1.2rem;
     }
     
-    .logo{
+    .logo-nav{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 1.3em;
     }
     
-    .ul-elements li{
+    .ul-elements-nav li{
         display: inline;
         list-style: none;
         font-size: 90%;
     }
     
-    .ul-elements a{
+    .ul-elements-nav a{
         text-decoration: none;
         color: black;
     }
     
-    .ul-elements a:hover{
+    .ul-elements-nav a:hover{
         color: grey;
     }
     
-    .ul-elements, .button1, .button2{
+    .ul-elements-nav, .button1-nav, .button2-nav{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     
-    .ul-elements{
+    .ul-elements-nav{
         display: inline;
         justify-content: flex-start;
         align-items: center;
@@ -45,7 +45,7 @@
     }
     
     
-    .button1{
+    .button1-nav{
         background-color: white;
         border: none;
         border-radius: 4px;
@@ -54,7 +54,7 @@
         margin-right: .5em;
     }
     
-    .button2{
+    .button2-nav{
         background-color: black;
         color: white;
         border: none;
@@ -62,19 +62,19 @@
         padding: 0.6em;
     }
     
-    .button1:hover{
+    .button1-nav:hover{
         color: white;
         background-color: black;
     }
     
-    .button2:hover{
+    .button2-nav:hover{
         color: black;
         background-color: grey;
     }
     /* End Nav Bar */
 
     /* Start Slugs */
-    .imgs {
+    .imgs-slugs {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -82,11 +82,11 @@
         margin: 0 1.5em;
     }
     
-    .imgs .img{
+    .imgs-slugs .img-slugs{
         width: 6em;
     }
     
-    .img6{
+    .img6-slugs{
         height: 1.5em;
         width: 3em;
     }
@@ -108,19 +108,19 @@
             flex-wrap: wrap;
         }
     
-        .ul-elements{
+        .ul-elements-nav{
             order: 1;
         }
     
-        .ul-elements li {
+        .ul-elements-nav li {
             font-size: 49%;
         }
-        .buttons{
+        .buttons-nav{
             display: flex;
             justify-content: flex-end;
             min-width: 50%;
         }
-        .button1{
+        .button1-nav{
             background-color: white;
             border: none;
             border-radius: 4px;
@@ -128,7 +128,7 @@
             width: 30px;
         }
         
-        .button2{
+        .button2-nav{
             background-color: black;
             color: white;
             border: none;
@@ -137,7 +137,7 @@
             width: 30px;
         }
     
-        .imgs {
+        .imgs-slugs {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -145,13 +145,13 @@
             margin: 0 1em;
         }
     
-        .img{
+        .img-slugs{
             width: 5em;
             padding-right: 1em;
             margin-bottom: .5em;
         }
     
-        .img6{
+        .img6-slugs{
             padding-right: 4em;
         }  
     
