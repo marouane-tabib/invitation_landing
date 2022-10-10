@@ -170,7 +170,7 @@ input {
     flex-direction: column;
     background-color: black;
     padding: 4%;
-    width: 86em;
+    width: 84%;
     margin: 0% 0%;
 }
 
@@ -226,9 +226,11 @@ input {
     box-sizing: border-box;
 }
 
+.second h4{
+    padding: 5px;
+}
 
-
-button {
+.botton1{
     position: relative;
     padding: 12px 2%;
     margin-left: 4px;
@@ -253,11 +255,26 @@ button {
     position: relative;
     background-color: black;
     color: white;
-    padding: 3%;
-    position: re;
+    padding: 4%;
+    margin: 40px;
 }
-
+.botton2{
+    position: relative;
+    padding: 12px 2%;
+    margin-left: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+    background: linear-gradient(106.2deg, rgb(0, 186, 217) -4.3%, rgb(121, 134, 204) 14.1%, rgb(150, 117, 206) 34.7%, rgb(186, 105, 200) 53%, rgb(240, 71, 112) 74.7%, rgb(239, 162, 92) 95.6%);
+    border-width: 3%;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+.signin{
+    padding: 2%;
+}
 .google {
+    padding: 12px 2%;
     background: rgb(255, 255, 255);
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -266,19 +283,13 @@ button {
 
 .img2 {
     position: absolute;
-    top: 0;
+    top: 40px;
     right: 15%;
-    height: 20em;
-    width: 30em;
+    height: 23em;
+    width: 35em;
 }
 
-.googleimg {
-
-    height: 20px;
-    width: 20px;
-}
-
-.fa {
+.fa{
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: 15%;
