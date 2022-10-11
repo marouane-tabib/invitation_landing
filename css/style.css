@@ -5,7 +5,7 @@
 
 /* /////////:::HEADER::::////// */
 /* Header */
-    /* Satart Nav Bar */
+    /* Start Nav Bar */
     .nav-elements{
         display: flex;
         justify-content: space-between;
@@ -343,7 +343,7 @@ button {
             /* End Rewards */
 
             /* Start Slide */
-            ...
+            
             /* End Slide */
 
             /* Start Gallry */
@@ -392,5 +392,62 @@ button {
 
 /* /////////:::BODY::::////// */
 /* Footer */
-    ...
+.footer-elements{
+    background-color: black;
+    height: 15rem;
+    color: white;
+    border-radius: .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2%;
+    
+  }
+
+  .div-para{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-footer{
+    display: flex;
+    margin: 0 2em;
+  }
+
+  .f-column a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: .5em;
+}
+
+.f-column a:hover{
+    color: grey;
+}
+
+.f-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-word-footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+.social-icons a{
+    font-size: 1.3em;
+    color: white;
+}
+
+.social-icons a:hover{
+    color: grey;
+}
+
+@media screen and (max-width:730px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+}
 /* End Footer */
