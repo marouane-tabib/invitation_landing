@@ -159,72 +159,67 @@
     /* End of media NavBar and slugs*/
 
     /* Start Slide */
-    textarea,
-input {
-    outline: none;
-}
+    textarea , input {
+            outline: none;
+        }
 
-.first {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    padding: 4%;
-    width: 84%;
-    margin: 0% 0%;
-}
+    .first {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        padding: 4%;
+        width: 84%;
+        margin: 0% 0%;
+    }
 
-.header1 {
-    color: white;
-}
+    .header1 {
+        color: white;
+    }
 
-.para1 {
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 20;
-    margin: 0%;
-}
+    .para1 {
+        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 20;
+        margin: 0%;
+    }
 
-/* .bar {
-    display: inline;
-} */
+    .img1 {
+        position: relative;
+        margin-top: 2.5%;
+        left: 59vw;
+        height: 402px;
+        width: 494px;
+    }
 
-.img1 {
-    position: relative;
-    margin-top: 2.5%;
-    left: 59vw;
-    height: 402px;
-    width: 494px;
-}
+    .p1 {
+        display: inline;
+    }
 
-.p1 {
-    display: inline;
-}
+    .findtxt {
+        background-color: #eee;
+        position: relative;
+        font-size: small;
+        margin-left: 0%;
+        padding: 1px;
+        border: none;
+        background: none;
+    }
 
-.findtxt {
-    background-color: #eee;
-    position: relative;
-    font-size: small;
-    margin-left: 0%;
-    padding: 1px;
-    border: none;
-    background: none;
-}
+    .form {
+        display: flex;
+        background: #EEE;
 
-.form {
-    display: flex;
-    background: #EEE;
+        border: 1px solid #CCC;
+        border-radius: 5px;
+        box-shadow: 1% 2% 10% #7b7575bf;
+        /* margin-right: 0%;
+        margin-top: 0%; */
 
-    border: 1px solid #CCC;
-    border-radius: 5px;
-    box-shadow: 1% 2% 10% #7b7575bf;
-    /* margin-right: 0%;
-    margin-top: 0%; */
-
-    padding: 8px 60px;
-    box-sizing: border-box;
-}
+        padding: 8px 60px;
+        box-sizing: border-box;
+    }
 
 .second h4{
     padding: 5px;
@@ -284,17 +279,19 @@ input {
 .img2 {
     position: absolute;
     top: 40px;
-    right: 15%;
     height: 23em;
     width: 35em;
+    right: 20px;
 }
 
-.fa{
+.fa.fa-check{
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: 15%;
     border-radius: 50%;
     font-size: 1rem;
+    text-align: center;
+    padding: 5px;
 }
     /* End Slide */
 
@@ -304,7 +301,7 @@ input {
 /* Body */
     /* Start Rewards */
       /* done icons*/
-        .fa{
+        .fa.liner-gr{
           background: linear-gradient(106.2deg, rgb(0, 186, 217) -4.3%, rgb(121, 134, 204) 14.1%, rgb(150, 117, 206) 34.7%, rgb(186, 105, 200) 53%, rgb(240, 71, 112) 74.7%, rgb(239, 162, 92) 95.6%);
           color: rgb(255, 255, 255);
           border: 15%;
@@ -312,7 +309,7 @@ input {
           font-size: 1rem;
         }
         /*the botton */
-        button {
+        body > core > rewards > div > div.text > button {
           position: relative;
           padding: 2% 3.5%;
           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -382,7 +379,15 @@ input {
           vertical-align: middle;
           width: 100%;
         }
-
+        body > core > rewards > div > div.left-illustration{
+            flex: 1;
+        }
+        body > core > rewards > div > div.text{
+            flex: 1;
+        }
+        body > core > rewards > div > div.right-illustration{
+            flex: 1;
+        }
 
         @media screen and (max-width: 800px) {
           .column {
