@@ -319,22 +319,6 @@
           border-radius: 4px;
           font-size: 0.9em;
         }
-        /* the text and 2 pictures */
-        .row{
-          display: grid;
-          grid-template-columns: auto auto auto;
-        }
-        /* 2eme tache*/
-          .gallery {
-            display: grid;
-            grid-template-columns: repeat(8, 1fr);
-            grid-template-rows: repeat(8, 5vw);
-            grid-gap: 15px;
-        }
-        .text
-        {
-            padding: 1rem;
-        }
         /* phone ans tablet display*/
         @media only screen and (max-width: 500px)
         {
@@ -376,7 +360,6 @@
 
         .column img {
           margin-top: 8px;
-          vertical-align: middle;
           width: 100%;
         }
         body > core > rewards > div > div.left-illustration{
@@ -400,8 +383,7 @@
         @media screen and (max-width: 600px) {
           .column {
             flex: 100%;
-            max-width: 100%;
-          }
+            max-width: 100%;          }
         }
     /* End Gallry */
 /* End Body */
