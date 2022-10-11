@@ -376,7 +376,6 @@
 
         .column img {
           margin-top: 8px;
-          vertical-align: middle;
           width: 100%;
         }
         body > core > rewards > div > div.left-illustration{
@@ -400,8 +399,7 @@
         @media screen and (max-width: 600px) {
           .column {
             flex: 100%;
-            max-width: 100%;
-          }
+            max-width: 100%;          }
         }
     /* End Gallry */
 /* End Body */
